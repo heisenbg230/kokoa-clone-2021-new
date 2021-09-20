@@ -1,3 +1,7 @@
+body {
+  background-color: lawngreen;
+}
+
 .welcome-header {
   margin: 90px 0px;
   text-align: center;
@@ -34,6 +38,7 @@
 
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
+  padding-left: 15px;
 }
 
 #login-form input:focus {
@@ -41,7 +46,7 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #c58432;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;

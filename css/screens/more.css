@@ -24,17 +24,30 @@
 }
 
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
+.more-suggestions__icon-image-chicken,
+.more-suggestions__icon-image-joja {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.more-suggestions__icon-image-saloon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #3d2623;
+  border-radius: 10px;
+}
+
+.more-suggestions__icon-image-oasis {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #3d2623;
+  border-radius: 10px;
+  background-color: rgb(168, 250, 232);
 }

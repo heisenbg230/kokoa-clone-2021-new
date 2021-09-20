@@ -3,20 +3,21 @@
   <head>
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>Pelican Town</span>
         <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>18:43</span>
+        <span>22:10</span>
       </div>
       <div class="status-bar__column">
-        <span>110%</span>
+        <span>777%</span>
         <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -28,28 +29,107 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span
+          ><a href="settings-chats.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
+      <a href="chat-leah.html">
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars3.githubusercontent.com/u/3612017"
+              src="https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png"
               class="user-component__avatar user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title">Nicolas</h4>
+              <h4 class="user-component__title">Leah</h4>
               <h6 class="user-component__subtitle">
-                Please check My Kokoa Account Info
+                You look beautiful today🥰
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column time-badge">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat-haley.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Haley</h4>
+              <h6 class="user-component__subtitle">
+                Hmm...that's a pretty good idea, actually.
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column time-badge">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat-alex.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Alex</h4>
+              <h6 class="user-component__subtitle">
+                Yeah I know. That's why I have it like this.
               </h6>
             </div>
           </div>
           <div class="user-component__column">
             <span class="user-component__time">21:22</span>
-            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+      <a href="chat-sandy.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Sandy</h4>
+              <h6 class="user-component__subtitle">
+                Visit Sandy's Oasis near you in next two hours and get 25%
+                discount! 🎉 Just...
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+          </div>
+        </div>
+      </a>
+      <a href="chat-lewis.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lewis</h4>
+              <h6 class="user-component__subtitle">
+                Don't strain yourself
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
           </div>
         </div>
       </a>
@@ -64,7 +144,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
+            <span class="nav__notification badge">2</span>
             <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
@@ -82,7 +162,11 @@
     </nav>
 
     <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
+      <span id="no-mobile__content">Your screen is too big</span>
+      <img
+        id="no-mobile__image"
+        src="https://stardewvalleywiki.com/mediawiki/images/b/b2/Animals_Icon.png"
+      />
     </div>
 
     <script

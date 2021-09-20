@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -9,7 +9,6 @@
 @import "components/screen-header.css";
 @import "components/alt-screen-header.css";
 @import "components/user-component.css";
-@import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
 
@@ -23,9 +22,14 @@
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Merienda", cursive;
+  background-color: #fddea7;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+i {
+  color: #31191d;
 }

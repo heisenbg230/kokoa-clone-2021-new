@@ -1,6 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
-  height: 500vh;
+  background-color: #fddea7;
 }
 
 #chat-screen .alt-header,
@@ -8,7 +7,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #fddea7;
   box-sizing: border-box;
 }
 
@@ -33,7 +32,7 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 110px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,10 +40,15 @@
 }
 
 .chat__timestamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  background-color: #92a4b2;
-  padding: 15px;
-  font-size: 14px;
+  background-color: #c29f63;
+  padding: 12px;
+  width: 150px;
+  height: 8px;
+  font-size: 12px;
   border-radius: 25px;
   margin-bottom: 25px;
 }
@@ -60,6 +64,7 @@
   height: 50px;
   border-radius: 50%;
   margin-right: 10px;
+  background-color: #d49468;
 }
 
 .message__author {
@@ -72,10 +77,21 @@
   align-items: flex-end;
 }
 
-.message__bubble {
+.message__bubble,
+.message__bubble-leah {
   background-color: white;
   padding: 13px;
   font-size: 18px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message__bubble-sandy {
+  background-color: white;
+  padding: 13px;
+  width: 220px;
+  font-size: 17px;
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
@@ -92,7 +108,8 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  color: white;
+  background-color: rgb(126, 92, 61);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;

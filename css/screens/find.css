@@ -6,6 +6,7 @@
 }
 .recommended-friends__title {
   font-size: 14px;
+  padding-bottom: 15px;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -70,7 +71,7 @@
 }
 
 .open-post__member-status {
-  color: #ffb0e0;
+  color: #fc74c5;
 }
 
 .open-post__photo {
